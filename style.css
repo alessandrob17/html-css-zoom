@@ -9,10 +9,13 @@
     .container-header{
         background-color: black;
         min-height: 90px;
-        display: flex;
+        position: relative;
+        
 }
 .row-header{
-    justify-content: flex-end;
     color: white;
-    padding-left: -100px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: grey;
 }
